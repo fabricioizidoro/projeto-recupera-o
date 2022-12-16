@@ -1,0 +1,161 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    
+
+</head>
+<body>
+    <!--MENU-->
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1><a href="index.html"><img src="./logo/urban-logo.png" alt=""></a></h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="planos.html" class="nav-link">Planos</a></li>
+                    <li class="nav-item"><a href="profissionais.html" class="nav-link">Profissionais</a></li>
+                    <li class="nav-item"><a href="onde-estamos.html" class="nav-link">Locais</a></li>
+                    
+                </ul>
+            </div>
+
+            <div>
+                <button class="botao-cad"><a href="contato.html">Cadraste-se</a></button>
+            </div>
+
+        </nav>
+    </header>
+    <!--FIM MENU-->
+
+    <!--BANNER-->
+    <section class="banner">
+        <a href="#" class="botao btn">CONFIRA!</a>
+    </section>
+
+    <!--Sobre-->
+    <section class="sobre">
+        <div class="row">
+            <div class="fotosobre">
+                <img src="img/maquinas.jpg" alt="mulher malhando">
+            </div>
+    
+            <div class="conteudo">
+                <h1>alcance o seu corpo desejado</h1> 
+                <p>Na nossa unidade, você pode contar com os melhores profissionais e equipamentos de ultima geração para auxiliá-lo na busca pelo seu corpo idealizado. </p>
+                <p>Não se esqueça de visitar todas as paginas do nosso site e ficar por dentro de tudo que podemos te oferecer como a melhor academia do Rio de Janeiro!</p>
+                
+            </div>
+    
+        </div>
+    </section>
+
+    <!--SOBRE FIM-->
+
+    <!--IMC-->
+
+ <section class="sec_form_imc">  
+
+
+    <div class="conteudo_form2_imc">
+        <h1>Calculadora de IMC </h1>
+    
+    
+      <form id="form_imc">
+        <div> 
+            <input type="number" placeholder="Digite sua altura em CM (ex : 1.64)" class="inputs_imc required_imc altura" id="altura">
+            <span class="span-required_imc">Nome deve ter no minimo 3 caracteres.</span>
+    
+        </div>
+        <div> 
+            <input type="number" placeholder="Digite o seu peso em KG (ex:63)" class="inputs_imc required_imc peso" id="peso">
+            <span class="span-required_imc">Seu telefone deve ter no minimo 8 digitos.</span>
+    
+        </div>
+       
+       
+        <p>Sexo</p>
+        <div class="box-select_imc">
+            
+            <div>
+                <input type="radio" id="m" value="m" name="sexo">
+                <label for="m">Masculino</label>
+            </div>
+    
+            <div>
+                <input type="radio" id="f" value="f" name="sexo">
+                <label for="f">Feminino</label>
+    
+            </div>
+    
+               
+        </div>
+        <button class="btn btn_imc" type="button" onclick="calculoImc()">Calcular</button>        
+      </form>
+    
+    
+    
+    </div>
+    <div class="plano_ideal">
+            
+        <h2 id="seu_imc">Descubra qual é o melhor plano para seu corpo!</h2>
+    
+        
+            
+            <div class="planos_box"></div>
+                
+                <img src="img/logo só marca.png" alt="" id="fotoplano">
+                
+                
+                <h2 id="titulo_plano"></h2>
+                
+                <p class="texto" id="textoplan">Preencha a calculadora da forma correta e veja seu resultado</p>    
+    
+                <P id="preco"></P>
+            
+            </div>
+    
+    
+    </div>
+ </section>
+
+ <div class="footer-container">
+    <footer>
+        <div class="footer01">
+            <div class="logo-text">
+                <img src="./logo/urban-logo.png" alt="Logo footer">
+                <p>&copy; 2022 - recuperação</p>
+                <p>All Rights Preserved.</p>
+            </div>
+            <div class="icons">
+                <ion-icon size="large" name="logo-twitter" class="icon"></ion-icon>
+                <ion-icon size="large" name="logo-instagram" class="icon"></ion-icon>
+                <ion-icon size="large" name="logo-linkedin" class="icon"></ion-icon>
+            </div>
+        </div>
+    </footer>
+ </div>
+
+ <div class="footer2">
+    <p>&copy;FabricioCRF</p>
+ </div>
+
+ 
+ <script src="./script/script.js"></script>
+ <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+ <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+ 
+
+    
+    
+
+    
+</body>    
+    
